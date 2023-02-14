@@ -1,0 +1,422 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Angkor', cursive; */
+    /* font-family: 'Battambang', cursive; */
+    font-family: 'Suwannaphum', serif;
+    /* font-family: 'Koulen', cursive; */
+}
+h1,h2,p,ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+div{
+    box-sizing: border-box;
+}
+.bar{
+    background-color: rgb(19, 18, 18);
+    padding: 20px;
+}
+.logo1 img{
+    height: 80px;
+}
+.ads1 img{
+    height: 80px;
+    float: right;
+}
+.menu-bar{
+    background-color: rgb(230, 12, 55);
+}
+.menu{
+    width: 100%;
+    float: left;
+}
+.menu ul li{
+    float: left;
+
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(249, 209, 209);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+.menu ul li.b a{
+    font-family: 'Battambang', cursive;
+    font-weight: 530;
+}
+.menu ul li.btn-menu{
+    display: none;
+}
+
+.a1 .title-1{
+    width: 100%;
+    float: left;
+    font-family: 'Koulen', cursive;
+    border-bottom: 2px solid rgb(241, 89, 142);
+}
+.a1{
+    margin-bottom: 10px;
+}
+.a1 .title-1 h1{
+    font-size: 18px;
+    margin: 0;
+    width: 14%;
+    padding: 10px;
+    background-color: rgb(241, 89, 142);
+    color: white;
+    float: left;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 80% 0);
+}
+.b1{
+    height: 500px;
+    padding: 0;
+}
+.new-container{
+    width: 77%;
+    margin-top: 13px;
+}
+.item-container{
+    padding: 2%;
+    width: 100%;
+    background-color: white;
+    float: left;
+    box-shadow: 1px 1px 4px 0px dimgrey;
+}
+.item-container .box1{
+    width: 49%;
+    height: 300px;
+    float: left;
+    
+}
+.item-container .box1-2{
+   float: right;
+}
+.item-container .box1 .img-box{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+    background-color: rgb(22, 21, 21);
+    float: left;
+
+}
+.item-container .box1 .img-box img{
+    transition: 0.3s;
+   
+}
+.item-container .box1 .img-box img:hover{
+    transform: scale(1.02);
+}
+
+.item-container .box1 .txt-box{
+    width: 100%;
+    height: 35%;
+    float: left;
+    overflow: hidden;
+}
+.item-container .box1 .txt-box p{
+    font-family: 'Battambang', cursive; 
+    padding: 10px;
+    font-size: 18px;
+    float: left;
+}
+.b1 a img{
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.item-container .box2{
+    width: 100%;
+    height: 130px;
+    float: left;
+    margin-bottom: 10px;
+   /* background-color: rgb(248, 187, 187);*/
+}
+.item-container .box2 .img-box{
+    width: 35%;
+    height: 100%;
+    float: left;
+    background-color: black;
+    overflow: hidden;
+}
+.item-container .box2 .img-box img{
+    transition: 0.3s;
+}
+.item-container .box2 .img-box img:hover{
+    transform: scale(1.02);
+}
+.item-container .box2 .txt-box{
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+   /* background-color: rgb(230, 218, 149);*/
+}
+.item-container .box2 .txt-box h1{
+    font-family: 'Battambang', cursive; 
+    color: black;
+    font-size: 18px;
+}
+.item-container .box2 .txt-box p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Battambang', cursive; 
+    color: rgb(120, 116, 116);
+}
+
+
+
+/* ##################################################
+/* Extra Large devices (large destops, 1200px and up) */
+@media (min-width: 1200px){
+
+    
+    
+}
+/* Larg devices (destops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .logo1 img{
+        height: 80px;
+    }
+    .ads1 img{
+        height: 80px;
+    }
+    .menu ul li.btn-menu{
+        display: block;
+    }
+    .menu ul li{
+        display: none;
+    }  
+    .item-container .box1{
+        width: 49%;
+        height: 250px;
+   
+        }
+    .a1 .title-1 h1{
+        width: 19%;
+        font-size: 17px;
+    }
+    .item-container .box2{
+        height: 100px;
+    }
+    .new-container{
+        width: 100%;
+    }
+    
+
+}
+/* Medium device (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .logo1 img{
+        height: 70px;
+    }
+    .ads1 img{
+        height: 70px;
+    } 
+    .menu ul li.btn-menu{
+        display: block;
+    }
+    .menu ul li{
+        display: none;
+    } 
+    .item-container .box1 .txt-box p{
+        font-size: 15px;
+    }
+    .a1 .title-1 h1{
+        width: 22%;
+        font-size: 15px;
+    }
+    .item-container .box1 .img-box{
+        height: 45%;
+    }
+    .item-container .box1 .txt-box{
+        height: 55%;
+    }
+    .item-container .box1 .txt-box p{
+        font-size: 17px;
+    }
+    .new-container{
+        width: 100%;
+    }
+    .item-container .box2{
+        width: 100%;
+        height: 300px;
+    }
+    .item-container .box2 .img-box{
+       width: 100%;
+       height: 60%;
+     }
+     .item-container .box2 .txt-box{
+       width: 100%;
+       height: 40%;
+       padding: 5px;
+    }
+
+
+}
+/* Small device (landscap phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+    .logo1{
+        text-align: center;
+    }
+    .ads1{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .logo1 img{
+        
+        height: 60px;
+    }
+    .ads1 img{
+        height: 60px;
+    }
+    .menu ul li.btn-menu{
+        display: block;
+    }
+    /* we can use this class .menu ul il:not(.class name){}*/
+    .menu ul li{
+        display: none;
+    }
+    .b1{
+        display: block;
+    }
+    .new-container{
+        width: 100%;
+    }
+    .item-container .box1 .txt-box p{
+        font-size: 15px;
+    }
+    .a1 .title-1 h1{
+        width: 19%;
+        font-size: 17px;
+    }
+    .item-container .box1 .img-box{
+        height: 60%;
+    }
+    .new-container{
+        max-width: 100%;
+    }
+    .new-container .a1{
+        padding: 0;
+    }
+    .item-container .box2{
+        height: 130px;
+    }
+
+    .item-container .box2{
+        width: 49%;
+        height: 320px;
+    }
+    .item-container .box2:nth-child(even){
+        margin-left: 2%;
+    }
+    .item-container .box2 .img-box{
+       width: 100%;
+       height: 60%;
+     }
+     .item-container .box2 .txt-box{
+        width: 100%;
+        height: 40%;
+        padding: 5px;
+       
+    }
+
+}
+
+/* Extra small device (Portrait phones, less than , 576px)*/
+@media (max-width: 576px){
+    .logo1{
+        text-align: center;
+    }
+    .ads1{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .logo1 img{
+        
+        height: 55px;
+    }
+    .ads1 img{
+        height: 55px;
+    }
+    .menu ul li.btn-menu{
+        display: block;
+    }
+    .menu ul li{
+        display: none;
+    }
+    .b1{
+        display: block;
+    }
+    .new-container{
+        width: 100%;
+    }
+    .item-container .box1 .txt-box p{
+        font-size: 15px;
+    }
+    .a1 .title-1 h1{
+        width: 19%;
+        font-size: 17px;
+    }
+    .new-container .a1{
+        padding: 0;
+    }
+    .item-container .box2 .img-box{
+        width: 50%;
+        float: left;
+    }
+    .item-container .box2 .txt-box{
+        width: 50%;
+        float: left;
+        
+    }
+    .item-container .box1 .img-box{
+        height: 50%;
+    }
+    .item-container .box2{
+        width: 49%;
+        height: 300px;
+    }
+    .item-container .box2:nth-child(even){
+        margin-left: 2%;
+    }
+    .item-container .box2 .img-box{
+       width: 100%;
+       height: 50%;
+     }
+     .item-container .box2 .txt-box{
+        width: 100%;
+        height: 50%;
+        padding: 5px;
+       
+    }
+    .item-container .box2 .txt-box h1{
+        font-size: 15px;
+    }
+    .item-container .box2 .txt-box p{
+        font-size: 12px;
+    }
+    .b{
+        padding: 0;
+    }
+
+}
